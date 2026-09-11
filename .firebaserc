@@ -1,0 +1,13 @@
+{
+  "projects": {
+    "default": "GANTI_DENGAN_PROJECT_ID"
+  },
+  "targets": {
+    "GANTI_DENGAN_PROJECT_ID": {
+      "hosting": {
+        "main": ["GANTI_DENGAN_PROJECT_ID"],
+        "app": ["GANTI_DENGAN_PROJECT_ID-app"]
+      }
+    }
+  }
+}

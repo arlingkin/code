@@ -1,0 +1,16 @@
+{
+  "hosting": [
+    {
+      "target": "main",
+      "public": ".",
+      "ignore": ["firebase.json", "app/**", ".git/**", ".firebaserc", "**/.*", "**/node_modules/**"],
+      "rewrites": [{ "source": "**", "destination": "/home.html" }]
+    },
+    {
+      "target": "app",
+      "public": "app/public",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [{ "source": "**", "destination": "/index.html" }]
+    }
+  ]
+}
